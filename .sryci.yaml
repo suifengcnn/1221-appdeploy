@@ -1,0 +1,4 @@
+build:
+  image: alpine:latest
+  commands:
+    - echo 'done'

@@ -29,6 +29,6 @@ ENV APP_NAME="sample" \
     APP_PKG_LOCATION="/u01/oracle"
 
 # Copy files and deploy application in WLST Offline mode
-COPY container-scripts/* /u01/oracle/
+COPY sample.war container-scripts/* /u01/oracle/
 
 RUN sh appDeploy.sh
