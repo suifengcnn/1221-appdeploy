@@ -1,4 +1,4 @@
 build:
-  image: alpine:latest
+  image: demoregistry.dataman-inc.com:5000/oracle/1221-domain
   commands:
     - echo 'done'
