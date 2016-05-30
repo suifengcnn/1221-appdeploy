@@ -17,7 +17,7 @@
 
 # Pull base image
 # ---------------
-FROM 1221-domain 
+FROM demoregistry.dataman-inc.com:5005/oracle/1221-domain 
 
 # Maintainer
 # ----------
