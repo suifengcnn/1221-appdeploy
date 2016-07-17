@@ -1,4 +1,4 @@
 build:
-  image: demoregistry.dataman-inc.com:5000/oracle/1221-domain
+  image: demoregistry.dataman-inc.com/oracle/1221-domain
   commands:
     - echo 'done'
